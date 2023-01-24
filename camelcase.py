@@ -5,11 +5,11 @@ def camelcase(sentence):
 
     return upper_camel_cased[0:1].lower() + upper_camel_cased[1:]
 
-def instruccions():
+def instructions():
     print('Enter a sentence and this program will convert it to camelcase.')
 
 def main():
-    instruccions()
+    instructions()
     sentence =input('Enter your sentence:')
     output = camelcase(sentence)
     print(output)
