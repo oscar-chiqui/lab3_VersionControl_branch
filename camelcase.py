@@ -1,4 +1,4 @@
-def camelcase(sentence):
+def camel_case(sentence):
 
     title_case = sentence.title()
     upper_camel_cased = title_case.replace(' ','')
@@ -7,7 +7,7 @@ def camelcase(sentence):
 
 def main():
     sentence =input('Enter your sentence:')
-    output = camelcase(sentence)
+    output = camel_case(sentence)
     print(output)
 
 if __name__ =='__main__':
