@@ -7,7 +7,7 @@ def camelcase(sentence):
 
 def alternative():
     """Display program name """
-    message = 'Awesome camelcase program !!'
+    message = 'Awesome camelcase program!!'
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}')
 
